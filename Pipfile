@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2022.9.24"
+chardet = "==3.0.4"
+charset-normalizer = "==2.1.1"
+click = "==8.1.3"
+colorama = "==0.4.6"
+et-xmlfile = "==1.1.0"
+flask = "==2.2.2"
+idna = "==2.5"
+itsdangerous = "==2.1.2"
+jinja2 = "==3.1.2"
+markupsafe = "==2.1.1"
+openpyxl = "==3.0.10"
+requests = "==2.18.0"
+telegram-notifier = "==0.3"
+urllib3 = "==1.21.1"
+werkzeug = "==2.2.2"
+youtube-dl = "==2021.12.17"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
